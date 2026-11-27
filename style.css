@@ -1,0 +1,11 @@
+:root{--sand:#F3EEE6;--ink:#1C2620;--muted:#5E655F;--green:#0F5C45;--line:#E3DACB}
+*{box-sizing:border-box}
+body{margin:0;background:var(--sand);color:var(--ink);font:17px/1.65 -apple-system,BlinkMacSystemFont,"IBM Plex Sans","Segoe UI",sans-serif}
+main{max-width:680px;margin:0 auto;padding:64px 24px 96px}
+h1{font-size:34px;line-height:1.2;margin:0 0 8px;letter-spacing:-.02em}
+h2{font-size:20px;margin:40px 0 8px}
+p,li{color:#33403A}
+.meta{color:var(--muted);font-size:15px;margin:0 0 32px}
+a{color:var(--green)}
+ul{padding-left:20px}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
